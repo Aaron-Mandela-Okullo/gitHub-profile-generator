@@ -1,0 +1,36 @@
+.repo {
+  background-color: #1f2937;
+  padding: 0.75rem;
+  line-height: 2;
+}
+.repo-link {
+  color: #38b2ae;
+  word-break: break-word;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.repo-link:hover {
+  text-decoration: underline;
+}
+repo-h1{
+  display: flex;
+  gap: 0 1.25rem;
+}
+.forks{
+  font-size: 0.875rem;
+  font-weight: 600; 
+}
+.repo-cont{
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 1.75rem; 
+  width: 83.3333%; 
+  margin-left: auto;
+  margin-right: auto; 
+}
+@media (min-width: 768px) { 
+  .repo-cont{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

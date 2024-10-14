@@ -1,0 +1,9 @@
+.app-wrapper{
+  min-height: 100vh;
+  background-color:rgb(235, 162, 27);
+}
+.app-container{
+  color:#E5E7EB;
+  Padding-top:1px;
+  Padding-bottom:12px;
+}

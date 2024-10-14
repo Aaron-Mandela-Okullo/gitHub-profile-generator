@@ -1,0 +1,24 @@
+.gitHub-img{
+  Width:96px;
+ border-radius: 9999px;
+}
+.userName{
+  color:black;
+  font-size: 24px;
+  Padding-left:8px;
+  Padding-right: 8px;
+}
+.userName::first-letter{
+  font-size: 48px;
+}
+.logo-container{
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid 
+  #fff;
+  Padding-bottom: 8px;
+  display: flex;
+  background:gainsboro;
+  padding-top: 0;
+
+}
